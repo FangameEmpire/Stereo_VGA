@@ -1,0 +1,183 @@
+(footprint "BUZ-TH_BD14.0-P7.60-D0.7-FD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "PIEZO1"
+		(at 0 -4 180)
+		(layer "F.SilkS")
+		(uuid "946da7c3-c280-4225-9cea-847e0173905c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ZL-YDW1407-4005P-7.6"
+		(at 0 4 180)
+		(layer "F.Fab")
+		(uuid "a237b197-aa4e-4004-8350-aeff7d90ad38")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" "LCSC:BUZ-TH_BD14.0-P7.60-D0.7-FD"
+		(at 0 7 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fea267e-e91b-423a-b95d-c6902f067747")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Buzzers_ZLFY-ZL-YDW1407-4005P-7-6_C219740.html"
+		(at 0.5 9 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d78a4cf-d946-4267-bc69-a921268efa67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc16eb3e-a397-4ac0-8292-bce83fa0826e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C219740"
+		(at -0.5 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0153a7c7-6fe0-4e7a-b1e8-d8532886393f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a86e4946-a193-4783-9cd3-7444fceeab73")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1d4ff084-280c-429e-9fdf-49db6987a6f5")
+	)
+	(fp_circle
+		(center -7 7)
+		(end -6.97 7)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7befa9fb-c8ed-4201-885a-115f14b22f5b")
+	)
+	(fp_circle
+		(center -3.81 0)
+		(end -3.63 0)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7fe62b52-ecd3-45c4-ad56-f1c6373cb0c4")
+	)
+	(fp_circle
+		(center 3.81 0)
+		(end 3.99 0)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "125639b7-d9e1-4097-ad92-d558190330b1")
+	)
+	(fp_text user "+"
+		(at -6.5532 0 180)
+		(layer "F.SilkS")
+		(uuid "c755ca75-b44b-44bb-b767-ece6388942ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "fd71e274-4ad4-47bc-a779-de7e5e5a816b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04d1d44c-0977-4e6a-8aa7-cc36e306778e")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4fc25fb3-37ed-4e2c-a8ec-49ec4799f274")
+	)
+	(model "${KIPRJMOD}/LCSC.3dshapes/BUZ-TH_D14.0-H1.0-P7.6.wrl"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)
